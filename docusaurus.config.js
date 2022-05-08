@@ -51,6 +51,24 @@ const config = {
         },
       }),
     ],
+    [
+      'redocusaurus',
+      /** @type {import('@redocusaurus').Options} */
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          {
+            spec: 'static/PAYONE-Link.yaml',
+            route: '/api/',
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: '#3d94d1',
+        },
+      },
+    ],
   ],
 
   themeConfig:
@@ -59,21 +77,22 @@ const config = {
       navbar: {
         title: 'Hannes seine Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'PAYONE Logo',
           src: 'img/payone.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            type: 'doc',
             docId: 'checkout-demo/checkout demo intro',
             position: 'left',
             label: 'PAYONE Checkout Demo',
+          },
+          {to: '/api', label: 'PAYONE Link API', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
