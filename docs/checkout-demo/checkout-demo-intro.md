@@ -20,11 +20,11 @@ The app shows a usage scenario for an e-shop that allows Credit Card, PayPal and
 As for how to read this README for the first time, we recommend to
 - first, check out ["Use cases' showcase" section](#use-cases-showcase)
 - (then you can install the app to be able to play around with it yourself - follow section ["Running the app"](#running-the-app))
-- secondly, read ["Let's do it" section](/_docs/detailed-readme.md#lets-do-it) in the more detailed doc - [Detailed Readme](/_docs/detailed-readme.md)
-- and then, read ["Internals" section](/_docs/detailed-readme.md#internals) in the [more detailed Readme](/_docs/detailed-readme.md)
+- secondly, read ["Let's do it" section](./checkout-demo-details.md#lets-do-it) in the more detailed doc - [Detailed Readme](./checkout-demo-details.md)
+- and then, read ["Internals" section](./checkout-demo-details.md#internals) in the [more detailed Readme](./checkout-demo-details.md)
 
-[Detailed Readme](/_docs/detailed-readme.md) elaborates more on tech details and PAYONE's API concepts.  
-So, most probably, you _would_ want to check it out. The link to it, again: [the detailed Readme](/_docs/detailed-readme.md).
+[Detailed Readme](/docs/checkout-demo/checkout-demo-details.md) elaborates more on tech details and PAYONE's API concepts.  
+So, most probably, you _would_ want to check it out. The link to it, again: [the detailed Readme](./checkout-demo-details.md).
 
 ## Running the app
 You have two options: you can play around with the app on [Gitpod](https://www.gitpod.io/), an online IDE, or you can

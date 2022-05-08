@@ -51,24 +51,24 @@ const config = {
         },
       }),
     ],
-    [
-      'redocusaurus',
-      /** @type {import('@redocusaurus').Options} */
-      {
-        // Plugin Options for loading OpenAPI files
-        specs: [
-          {
-            spec: 'static/PAYONE-Link.yaml',
-            route: '/api/',
-          },
-        ],
-        // Theme Options for modifying how redoc renders them
-        theme: {
-          // Change with your site colors
-          primaryColor: '#3d94d1',
-        },
-      },
-    ],
+    // Include redocusaurus for redoc Pages - doesn't work atm: https://github.com/rohit-gohri/redocusaurus/issues/175 
+    // [
+    //   'redocusaurus',
+    //   {
+    //     // Plugin Options for loading OpenAPI files
+    //     specs: [
+    //       {
+    //         spec: 'static/PAYONE-Link.yaml',
+    //         route: '/api/',
+    //       },
+    //     ],
+    //     // Theme Options for modifying how redoc renders them
+    //     theme: {
+    //       // Change with your site colors
+    //       primaryColor: '#3d94d1',
+    //     },
+    //   },
+    // ],
   ],
 
   themeConfig:
@@ -87,7 +87,7 @@ const config = {
             position: 'left',
             label: 'PAYONE Checkout Demo',
           },
-          {to: '/api', label: 'PAYONE Link API', position: 'left'},
+          // {to: '/api', label: 'PAYONE Link API', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
