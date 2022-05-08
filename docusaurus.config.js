@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/lumpi2k/docusaurus-cf/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -60,7 +60,7 @@ const config = {
         title: 'Hannes seine Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/payone.svg',
         },
         items: [
           {
@@ -69,12 +69,18 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+            type: 'doc',
+            docId: 'checkout-demo/checkout demo intro',
+            position: 'left',
+            label: 'PAYONE Checkout Demo',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          }
         ],
       },
       footer: {
