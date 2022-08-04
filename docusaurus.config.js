@@ -51,7 +51,7 @@ const config = {
         },
       }),
     ],
-    // Include redocusaurus for redoc Pages - doesn't work atm: https://github.com/rohit-gohri/redocusaurus/issues/175 
+    // Include redocusaurus for redoc Pages
     [
       'redocusaurus',
       {
