@@ -102,6 +102,7 @@ const config = {
           }
         ],
       },
+      metadata: [{name: 'robots', content: 'noindex, follow'}],
       footer: {
         style: 'dark',
         links: [
