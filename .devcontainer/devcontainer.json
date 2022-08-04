@@ -1,5 +1,5 @@
 {
-	"image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04",
+	"image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:16",
 	"settings": {
 	  "[typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -23,7 +23,6 @@
 		"MS-CEINTL.vscode-language-pack-de"
 	],
 	"forwardPorts": [3000],
-	"containerUser": "vscode",
 	"postCreateCommand": "yarn install",
 	"waitFor": "postCreateCommand", // otherwise automated jest tests fail
 	"features": {
