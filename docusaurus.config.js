@@ -59,7 +59,7 @@ const config = {
         specs: [
           {
             spec: 'static/PAYONE-Link.yaml',
-            route: '/api/',
+            route: '/link-api/',
           },
         ],
         // Theme Options for modifying how redoc renders them
@@ -83,20 +83,20 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'checkout-demo/checkout demo intro',
+            docId: 'PAYONE API/Client API/index',
             position: 'left',
-            label: 'PAYONE Checkout Demo',
+            label: 'PAYONE Client API',
           },
-          {to: '/api', label: 'PAYONE Link API', position: 'left'},
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'PAYONE API/Server API/index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'PAYONE Server API',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/link-api', label: 'PAYONE Link API', position: 'left'},
+          {to: '/blog', label: 'Changelog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/lumpi2k/docusaurus-cf',
             label: 'GitHub',
             position: 'right',
           }
