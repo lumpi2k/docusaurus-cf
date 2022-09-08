@@ -6,7 +6,8 @@
       "dbaeumer.vscode-eslint",
       "stylelint.vscode-stylelint",
       "EditorConfig.EditorConfig",
-      "Gruntfuggly.todo-tree"
+      "Gruntfuggly.todo-tree",
+      "zaaack.markdown-editor"
     ],
     "unwantedRecommendations": []
   }
