@@ -25,3 +25,20 @@ specific functions are carried out.
 |                |          |                    |                                                                                                                                                                                                        |
 |                |          |                    |                                                                                                                                                                                                        |
 |                |          |                    |                                                                                                                                                                                                        |
+
+## Example Request
+
+```
+amount=2500
+api_version=3.11
+capturemode=completed
+currency=EUR
+encoding=UTF-8
+invoiceappendix=test message
+narrative_text=narrative
+request=capture
+sequencenumber=-1
+settleaccount=auto
+transaction_param=do_what_you_want-only-used_for_PMI_Exports
+txid=123456789
+```
