@@ -28,6 +28,12 @@ specific functions are carried out.
 
 ## Example Request
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="Request" label="Request" default>
+
 ```
 amount=2500
 api_version=3.11
@@ -42,3 +48,14 @@ settleaccount=auto
 transaction_param=do_what_you_want-only-used_for_PMI_Exports
 txid=123456789
 ```
+</TabItem>
+<TabItem value="Response" label="Response">
+Response:
+
+```
+status=APPROVED
+txid=123456789
+settleaccount=yes
+```
+</TabItem>
+</Tabs>
