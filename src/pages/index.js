@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/PAYONE API/Server API/">
+            to="/docs/payone-api/server-api/">
             Click here for 🚀
           </Link>
         </div>
