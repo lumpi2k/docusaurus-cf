@@ -48,14 +48,15 @@ settleaccount=auto
 transaction_param=do_what_you_want-only-used_for_PMI_Exports
 txid=123456789
 ```
+
 </TabItem>
 <TabItem value="Response" label="Response">
-Response:
 
 ```
 status=APPROVED
 txid=123456789
 settleaccount=yes
 ```
+
 </TabItem>
 </Tabs>

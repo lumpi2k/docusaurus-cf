@@ -59,7 +59,7 @@ const config = {
         specs: [
           {
             spec: 'static/PAYONE-Link.yaml',
-            route: '/link-api/',
+            route: '/link-api',
           },
         ],
         // Theme Options for modifying how redoc renders them
@@ -83,13 +83,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'PAYONE API/Client API/index',
+            docId: 'payone-api/client-api/index',
             position: 'left',
             label: 'PAYONE Client API',
           },
           {
             type: 'doc',
-            docId: 'PAYONE API/Server API/index',
+            docId: 'payone-api/client-api/index',
             position: 'left',
             label: 'PAYONE Server API',
           },
