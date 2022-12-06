@@ -19,23 +19,11 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ yarn build
+$ yarn build && yarn serve
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+[See here](https://confluence-de.usr.ingenico.loc/display/PSAI/Installing+a+local+Dev+Environment+for+Docusaurus#InstallingalocalDevEnvironmentforDocusaurus-DeployonMirage) for deployment instructions on Mirage.
