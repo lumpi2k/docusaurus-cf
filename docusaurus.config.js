@@ -51,6 +51,28 @@ const config = {
         },
       }),
     ],
+    [
+      'redocusaurus',
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          {
+            layout: {
+              tile: 'PAYONE Link API Specification',
+              noFooter: 'false',
+              description: 'The PAYONE Link API Specification',
+            },
+            spec: 'static/openapi/PAYONE-Link.yaml',
+            route: '/api/',
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: '#3d94d1',
+        },
+      },
+    ],
   ],
 
   themeConfig:
@@ -59,7 +81,7 @@ const config = {
       navbar: {
         title: 'PAYONE Docs++',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'PAYONE Logo',
           src: 'img/payone.svg',
         },
         items: [
@@ -70,6 +92,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/api', label: 'PAYONE Link API', position: 'left'},
           {
             href: 'https://github.com/payone-gmbh',
             label: 'GitHub',
