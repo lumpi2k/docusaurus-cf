@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    docusaurus:
+        container_name: docusaurus
+        build:
+          context: .
+          dockerfile: Dockerfile
+        restart: unless-stopped
+        ports:
+          - 9007:80
