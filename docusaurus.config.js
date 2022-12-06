@@ -38,6 +38,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://stash.payone-office.de/projects/NTGR/repos/docusaurus/browse',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
