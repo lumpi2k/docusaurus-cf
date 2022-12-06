@@ -1,4 +1,5 @@
 FROM --platform=$BUILDPLATFORM node:alpine
+WORKDIR /opt/app
 COPY . .
 RUN npm install
 EXPOSE 80
