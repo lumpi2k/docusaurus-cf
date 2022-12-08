@@ -6,7 +6,7 @@ keywords:
     - documentation
     - server api
 description: Learn how to make Server-to-Server Requests to our API
-draft: true
+draft: false
 ---
 # PAYONE Server API Documentation
 This is an example docs page with some demo metadata:
