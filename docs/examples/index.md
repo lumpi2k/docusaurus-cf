@@ -1,8 +1,8 @@
 ---
-title: PAYONE
+id: examples
+sidebar-position: 1
 ---
-# PAYONE Docs
-This is the starting point on your PAYONE journey.
+# Examples
 
 ## Docusaurus Capabilities
 Find the docs here:

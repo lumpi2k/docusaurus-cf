@@ -63,8 +63,9 @@ const config = {
               noFooter: 'false',
               description: 'The PAYONE Link API Specification',
             },
+            id: 'payone-link-api',
             spec: 'static/openapi/PAYONE-Link.yaml',
-            route: '/api/',
+            route: '/link-api/',
           },
         ],
         // Theme Options for modifying how redoc renders them
@@ -88,12 +89,12 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '/category/payone',
             position: 'left',
-            label: 'Tutorial',
+            label: 'PAYONE Intro',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/api', label: 'PAYONE Link API', position: 'left'},
+          {to: '/blog', label: 'Changelog', position: 'left'},
+          {to: '/link-api', label: 'PAYONE Link API', position: 'left'},
           {
             href: 'https://github.com/payone-gmbh',
             label: 'GitHub',
