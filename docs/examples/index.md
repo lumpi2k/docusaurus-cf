@@ -75,3 +75,18 @@ https://docusaurus.io/docs/markdown-features/admonitions
 
 https://docusaurus.io/docs/markdown-features/toc
 
+### Mermaid
+
+```mermaid
+sequenceDiagram
+    participant Merchant
+    participant PAYONE
+    Merchant->>PAYONE: Some Request
+    PAYONE->>Third Party: Redirect
+    loop Redirect
+        Third Party->>Third Party: Some Check
+    end
+    Note right of Third Party: Comment here!
+    Third Party-->>PAYONE: IPN
+    PAYONE-->>Merchant: Success
+```
