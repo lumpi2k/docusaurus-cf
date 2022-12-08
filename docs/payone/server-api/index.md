@@ -19,6 +19,22 @@ This is an example docs page with some demo metadata:
 also some nicely highlighted text
 :::
 
+## Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant Merchant
+    participant PAYONE
+    Merchant->>PAYONE: Some Request
+    PAYONE->>Third Party: Redirect
+    loop Redirect
+        Third Party->>Third Party: Some Check
+    end
+    Note right of Third Party: Comment here!
+    Third Party-->>PAYONE: IPN
+    PAYONE-->>Merchant: Success
+```
+
 ## Request types
 
 We structure the docs into these request types:
