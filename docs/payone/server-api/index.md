@@ -5,7 +5,7 @@ keywords:
     - payment
     - documentation
     - server api
-description: A basic overview of the capabilities of the PAYONE Server API
+description: Learn how to make Server-to-Server Requests to our API
 draft: true
 ---
 # PAYONE Server API Documentation
@@ -18,3 +18,11 @@ This is an example docs page with some demo metadata:
 :::success
 also some nicely highlighted text
 :::
+
+## Request types
+
+We structure the docs into these request types:
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
