@@ -30,6 +30,7 @@
 }
 
 /* Theme the mermaid sequence diagrams  */
+
 .actor {
   fill: #3d94d1 !important;
   stroke: #246999 !important;
@@ -38,4 +39,88 @@
 line {
   fill: #3d94d1 !important;
   stroke: #246999 !important;
+}
+
+/* Available Integrations */
+
+.int-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin:auto;
+}
+
+.int-card-grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  color: #444 !important;
+}
+
+.int-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin: 1vw;
+  min-height: 150px;
+}
+
+.int-card img {
+  font-size: 2em;
+  font-weight: 600;
+  text-indent: .5em;
+  height: 100px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.int-card h3 {
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.int-card-tabs {
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.int-card-tab {
+  background-color: inherit;
+  flex: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+}
+
+
+.int-card-tab.active,
+.int-card-tab:hover {
+  background-color: #ccc;
+}
+
+.int.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.int.card-list li {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
 }
