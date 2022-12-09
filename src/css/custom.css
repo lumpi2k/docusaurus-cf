@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #7eb8e1;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Theme the mermaid sequence diagrams  */
+.actor {
+  fill: #3d94d1 !important;
+  stroke: #246999 !important;
+}
+
+line {
+  fill: #3d94d1 !important;
+  stroke: #246999 !important;
+}

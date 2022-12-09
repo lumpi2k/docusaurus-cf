@@ -147,6 +147,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      mermaid: {
+        theme: {light: 'default', dark: 'dark'},
+        options: {
+          fill: 'blue',
+        },
+      },
     }),
 };
 
