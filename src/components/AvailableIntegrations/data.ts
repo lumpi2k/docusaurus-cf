@@ -44,6 +44,51 @@ const data = [
         'Method C'
       ]
     },
+    {
+      id: 4,
+      name: 'Shopware 5',
+      logoUrl: 'img/logos/shopware5.svg',
+      features: [
+        'Feature A',
+        'Feature B',
+        'Feature C'
+      ],
+      paymentMethods: [
+        'Method A',
+        'Method B',
+        'Method C'
+      ]
+    },
+    {
+      id: 5,
+      name: 'Oxid 6',
+      logoUrl: 'img/logos/oxid6.svg',
+      features: [
+        'Feature A',
+        'Feature B',
+        'Feature C'
+      ],
+      paymentMethods: [
+        'Method A',
+        'Method B',
+        'Method C'
+      ]
+    },
+    {
+      id: 6,
+      name: 'Spryker',
+      logoUrl: 'img/logos/spryker.svg',
+      features: [
+        'Feature A',
+        'Feature B',
+        'Feature C'
+      ],
+      paymentMethods: [
+        'Method A',
+        'Method B',
+        'Method C'
+      ]
+    },
   ];
   
   export default data;

@@ -14,14 +14,8 @@ export default function Home(): JSX.Element {
     <Layout
       title='PAYONE Available Integrations'
       description="An overview of available plug-ins and integrations for PAYONE">
-        <header>
-        <h1>Available Integrations</h1>
-        <p>This is an overview of alle currently available Plugins and integrations for the PAYONE platform. Work in progress!</p>
-        </header>
-
-
       <main>
-      
+     
       <CardGrid data={data} />
         
       </main>

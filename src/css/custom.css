@@ -49,6 +49,7 @@ line {
   align-items: center;
   width: 90vw;
   margin:auto;
+  flex-flow: column wrap;
 }
 
 .int-card-grid {
