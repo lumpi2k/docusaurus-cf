@@ -30,6 +30,7 @@
 }
 
 /* Theme the mermaid sequence diagrams  */
+
 .actor {
   fill: #3d94d1 !important;
   stroke: #246999 !important;
@@ -38,4 +39,92 @@
 line {
   fill: #3d94d1 !important;
   stroke: #246999 !important;
+}
+
+/* Available Integrations */
+
+.int-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin:auto;
+  flex-flow: column wrap;
+}
+
+.int-card-grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+.int-card {
+  background-color: var(--ifm-card-background-color);
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+  transition: all var(--ifm-transition-fast) ease;
+  transition-property: border, box-shadow;
+  border-radius: var(--ifm-card-border-radius);
+  width: 300px;
+  padding: 10px;
+  margin: 1vw;
+  min-height: 150px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  --ifm-link-color: var(--ifm-color-emphasis-800);
+  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+  --ifm-link-hover-decoration: none;
+}
+
+.int-card img {
+  font-size: 2em;
+  font-weight: 600;
+  text-indent: .5em;
+  height: 100px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.int-card h3 {
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.int-card-tabs {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: var(--ifm-card-border-radius);
+}
+
+.int-card-tab {
+  background-color: inherit;
+  flex: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all var(--ifm-transition-fast) ease;
+  border-radius: var(--ifm-card-border-radius);
+}
+
+
+.int-card-tab.active,
+.int-card-tab:hover {
+  background-color: #ccc;
+}
+
+.int.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.int.card-list li {
+  /* padding: 10px 15px;
+  font-size: 14px; */
 }
