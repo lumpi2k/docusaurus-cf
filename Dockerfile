@@ -1,5 +1,5 @@
 # First we're building the content in a node container
-FROM --platform=$BUILDPLATFORM node:alpine as build
+FROM node:alpine as build
 RUN apk --no-cache add git
 WORKDIR /app
 COPY package.json yarn.lock ./
