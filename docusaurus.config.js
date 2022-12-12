@@ -98,7 +98,7 @@ const config = {
             label: 'PAYONE Intro',
           },
           {to: '/blog', label: 'Changelog', position: 'left'},
-          {to: '/integrations', label: 'Avalable Integrations', position: 'left'},
+          {to: '/integrations', label: 'Available Integrations', position: 'left'},
           {to: '/link-api', label: 'PAYONE Link API', position: 'left'},
           {
             href: 'https://github.com/payone-gmbh',
