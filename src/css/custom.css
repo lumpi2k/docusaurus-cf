@@ -144,3 +144,8 @@ line {
 .col-demo p {
   text-align: justify;
 }
+
+#payone-hero {
+  background: rgb(36,105,153);
+  background: linear-gradient(81deg, rgba(36,105,153,1) 0%, rgba(61,148,209,1) 35%, rgba(126,184,225,1) 100%); 
+}

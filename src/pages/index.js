@@ -7,7 +7,7 @@ export default function MyReactPage() {
   return (
     <Layout>
       {/* hero banner */}
-      <div class="hero hero--primary">
+      <div class="hero hero--primary" id="payone-hero">
         <div class="container">
           <h1 class="hero__title">PAYONE Docs</h1>
           <p class="hero__subtitle">
