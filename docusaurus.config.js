@@ -132,7 +132,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'ChangelogS',
                 to: '/blog',
               },
               {
