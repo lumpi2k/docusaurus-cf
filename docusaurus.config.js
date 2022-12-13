@@ -105,6 +105,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://payone.status.io',
+            label: 'Platform Status',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -132,7 +137,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'ChangelogS',
+                label: 'Changelogs',
                 to: '/blog',
               },
               {
