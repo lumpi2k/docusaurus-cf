@@ -128,3 +128,19 @@ line {
   /* padding: 10px 15px;
   font-size: 14px; */
 }
+
+/* Start Page CSS */
+
+.col-demo {
+  /* background-color: var(--ifm-color-emphasis-200); */
+  padding: 1rem;
+  text-align: center;
+}
+
+.col-demo li {
+  text-align: left;
+}
+
+.col-demo p {
+  text-align: justify;
+}
