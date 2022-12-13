@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 
 export default function MyReactPage() {
   return (
@@ -11,13 +13,11 @@ export default function MyReactPage() {
           <p class="hero__subtitle">
             Welcome to the PAYONE Ecommerce API Documentation
           </p>
-          <div>
-            <a href="/docs/category/payone">
-              <button class="button button--secondary button--lg shadow--md">
-                Get Started 💳
-              </button>
-            </a>
-          </div>
+          <Link
+            className="button button--secondary button--lg shadow--md"
+            to="/docs/category/payone">
+            Get Started 💳
+          </Link>
         </div>
       </div>
 
@@ -69,11 +69,11 @@ export default function MyReactPage() {
                   natus. Cupiditate eveniet corrupti aut deleniti.
                 </li>
               </ul>
-              <a href="/blog">
-                <button class="button button--secondary button--md">
-                  All News 🧾
-                </button>
-              </a>
+              <Link
+            className="button button--secondary button--md"
+            to="/blog">
+            All News 📃
+          </Link>
             </div>
           </div>
         </div>
