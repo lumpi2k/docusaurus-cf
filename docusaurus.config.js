@@ -129,7 +129,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/payone',
+                href: 'https://twitter.com/PAYONE_GmbH',
               },
             ],
           },
